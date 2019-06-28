@@ -1,0 +1,49 @@
+                                        body {
+                                            background-color: rgb(32, 45, 54);
+                                        }
+                                        .questions {
+                                            background-color: rgb(43, 55, 67);
+                                        }
+                                        .list {
+                                            margin-bottom: 5px;
+                                        }
+                                        .flag {
+                                            background-color: red;
+                                            height: 150px;
+                                            width: auto;
+                                        }
+                                        .region {
+                                            width: 150px;
+                                        }
+                                        select option {
+                                            font-size: 13pt;
+                                        }
+                                        select option p {
+                                            font-size: 12pt;
+                                        }
+                                        p {
+                                            font-size: 10px;
+                                            text-align: left;
+                                        }
+                                        .flaginfo {
+                                            height: 150px;
+                                            width: auto;
+                                        }
+                                        .search {
+                                            height: 50px;
+                                            text-align: left;
+                                        }
+                                        .row1 {
+                                            height: 100px;
+                                            important;
+                                        }
+                                        .offset {
+                                            z-index: 1;
+                                            position: relative;
+                                            left: 51px;
+                                        }
+                                        @media screen and (max-width: 400px) {
+                                            .offset {
+                                                right: 23px;
+                                            }
+                                        }
